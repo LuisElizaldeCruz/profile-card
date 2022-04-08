@@ -7,3 +7,70 @@
     /*neutrales*/
     --Dark-gray: hsl(0, 0%, 59%);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    background-image: url("./images/bg-pattern-top.svg");
+
+    background-image: url("./images/bg-pattern-bottom.svg");
+    background-color: var(--Dark-cyan);
+}
+.card-container{
+    font-family: 'Kumbh Sans', sans-serif;
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+    border-radius: 15px 15px;
+}
+
+.cabecera{
+    width: auto;
+    border-radius: 15px 15px 0 0;
+    /* border-bottom: solid 3px white; */
+}
+
+.img-perfil{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: solid 3px white;
+    position: absolute;
+    top: 14%;
+    left: 30%;
+    
+}
+
+p{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.lugar{
+    text-align: center;
+}
+
+.datos{
+    border-top: solid 1px var(--Dark-gray);
+}
+
+.texto-numero{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+    /* padding: 0px 30px; */
+    padding-left: 0;
+    
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
