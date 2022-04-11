@@ -12,7 +12,6 @@
 
 body{
     background-image: url("./images/bg-pattern-top.svg");
-
     background-image: url("./images/bg-pattern-bottom.svg");
     background-color: var(--Dark-cyan);
 }
@@ -73,4 +72,25 @@ li{
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.nombre{
+    font-weight: bold;
+}
+
+.edad{
+    color: var(--Dark-grayish-blue);
+}
+
+.lugar{
+    color: var(--Dark-grayish-blue);
+}
+
+li{
+    color: var(--Dark-gray);
+}
+
+.numero{
+    color: var(--very-dark-desaturated-blue);
+    font-weight: bold;
 }
